@@ -7,7 +7,7 @@ function validasi(){
     var check_out = document.getElementById("check_out").value;
     var jumlah_tamu = document.getElementById("jumlah_tamu").value;
     var tipe_kamar = document.getElementById("tipe_kamar").value;
-    var a1 = "Peringatan! anda harus mengisi data ";
+    var a1 = "Anda harus mengisi data ";
 
     if(nama_lengkap == ""){
         a1 = a1 + "nama lengkap, ";
